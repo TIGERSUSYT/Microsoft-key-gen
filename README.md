@@ -5,7 +5,7 @@ A simple python script to generate Microsoft keys
 
 • A brain
 # How to use (windows)
-Click on the 'Code' dropdown, press 'Download ZIP, extract the zip, shift + right click, open in powershell/cmd
+Click on the 'Code' dropdown, press 'Download ZIP', extract the zip, shift + right click, open in powershell/cmd
 
 Type 'python main.py' 
 
