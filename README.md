@@ -14,3 +14,5 @@ Done
 I am not responsible for you going to jail for using this code (I'm pretty sure you can as this is technically stealing profit from Microsoft), nor do i condone the use of this code.
 
 No keys generated are guaranteed to work!
+# Feedback/bug reports 
+That's when the issues tab is for, silly
