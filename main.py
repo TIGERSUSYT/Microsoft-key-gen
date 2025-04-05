@@ -18,7 +18,6 @@ def generate_multiple_codes(count=10, length=25, chunk_size=5):
     return list(codes)
 
 if __name__ == "__main__":
-    config = load_config()
     
     num_codes = config.get("num_codes", 10)
     code_length = config.get("code_length", 25)
