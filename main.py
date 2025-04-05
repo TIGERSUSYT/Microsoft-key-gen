@@ -4,16 +4,7 @@ import json
 
 excluded_chars = set("AEIOULS015")
 allowed_chars = [c for c in string.ascii_uppercase + string.digits if c not in excluded_chars]
-
-def load_config(filename="config.json"):
     
-    try:
-        with open(filename, "r") as file:
-            return json.load(file)
-    except FileNotFoundError:
-        print(f"Config file '{filename}' not found. Using default settings.")
-        return {"num_codes": 5, "code_length": 25, "chunk_size": 5}
-
 def generate_code(length=25, chunk_size=5):
     
     raw_code = ''.join(random.choices(allowed_chars, k=length))
@@ -29,7 +20,7 @@ def generate_multiple_codes(count=10, length=25, chunk_size=5):
 if __name__ == "__main__":
     config = load_config()
     
-    num_codes = config.get("num_codes", 5)
+    num_codes = config.get("num_codes", 10)
     code_length = config.get("code_length", 25)
     chunk_size = config.get("chunk_size", 5)
     
